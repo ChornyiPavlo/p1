@@ -28,6 +28,7 @@
     }
     .navbar-brand {
         white-space: normal;
+        width: 80%;
     }
 
 }
