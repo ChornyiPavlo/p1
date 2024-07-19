@@ -23,6 +23,12 @@
         width: auto;
     }
 
+    .navbar-brand img {
+        width: 100px;
+    }
+    .navbar-brand {
+        white-space: normal;
+    }
 
 }
 
