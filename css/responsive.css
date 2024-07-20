@@ -24,11 +24,14 @@
     }
 
     .navbar-brand img {
-        width: 100px;
+        width: 60px;
     }
     .navbar-brand {
         white-space: normal;
-        width: 80%;
+        width: 77%;
+    }
+    .navbar-brand span {
+        font-size: 14px;
     }
 
 }
