@@ -34,6 +34,10 @@
         font-size: 14px;
     }
 
+    .service_section .img-box img {
+        height: 160px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -71,6 +75,11 @@
     .client_section .client_container {
         width: 100%;
     }
+
+
+    .service_section .img-box img {
+        height: 200px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -81,6 +90,7 @@
     .about_section .img-box img {
         width: 100%;
     }
+
 
     @keyframes odd-box-animate {
         0% {
@@ -141,7 +151,11 @@
     }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 375px) {
+    .navbar-brand {
+        width: 69%;
+    }
+}
 
 @media (min-width: 1200px) {
     .container {
